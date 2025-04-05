@@ -24,6 +24,14 @@ body {
               inset 0 0 8px rgba(76, 0, 255, 0.3);
 }
 
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.7); /* white-ish border */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* Enhance the navbar - glassmorphism effect */
 .navbar {
   background: rgba(15, 15, 19, 0.7);
